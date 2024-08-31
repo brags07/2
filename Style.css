@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(77, 96, 201);
+    color: white;
+    text-align: center;
+}
+
+
+h1{
+    font-size: 70px;
+}
+
+.primeira-imagem, .segunda-imagem{
+    max-width: 20%;
+}
+
+.terceira-imagem{
+    max-width: 40%;
+}
+
+.quarta-imagem{
+    max-width: 30%;
+}
+
+
+
+
+
+
+
+p{
+    font-size: 25px;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+button{
+    text-align: center;
+    color: rgba(5, 88, 5, 0.897);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.185);
+    padding: 5px;
+    margin: 5px;
+    width: 18%;
+
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+.fim{
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    text-align: center;
+    height: 89vh;
+}
